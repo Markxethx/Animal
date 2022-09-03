@@ -4,38 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self Taught Engineer</title>
+    <title>The Animals</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-</head>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="custom.css" rel="stylesheet">
+
+  </head>
 <body>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">The Animals</a>
+          <a class="navbar-brand" href="index.html">All About Animals</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Items</a>
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Projects
+                  Group
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">BLOG</a></li>
-                  <li><a class="dropdown-item" href="#">NEWS</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">ARTICLES</a></li>
+                  <li><a class="dropdown-item" href="#vertibrates">Vertibrates</a></li>
+                  <li><a class="dropdown-item" href="#">Invertibrates</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">EDUCATION</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Class
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mammals</a></li>
+                  <li><a class="dropdown-item" href="#">Fish</a></li>
+                  <li><a class="dropdown-item" href="#">Birds</a></li>
+                  <li><a class="dropdown-item" href="#">Reptiles</a></li>
+                  <li><a class="dropdown-item" href="#">Amphibians</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Type
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Herbivores</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Omnivorse</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Carnivores</a></li>
+                </ul>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -56,21 +75,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="group-portrait-adorable-puppies.jpg" class="d-block w-100" alt="...">
+            <img src="images/group-portrait-adorable-puppies.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-secondary">Adorable Puppies</h5>
-              <p class="text-secondary">Some representative placeholder content for the first slide.</p>
+              <p class="text-secondary">A known animal for a Man's Best Friend</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="olivebacked-sunbirds-feeding-child-cinnyris-jugularis.jpg" class="d-block h-100 w-100" alt="...">
+            <img src="images/olivebacked-sunbirds-feeding-child-cinnyris-jugularis.jpg" class="d-block h-100 w-100" alt="...">
             <div class="carousel-caption d-none d-sm-block">
               <h5>Olivebacked Sunbirds</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="beautiful-color-mandarin-fish.jpg" class="d-block h-80 w-100" alt="...">
+            <img src="images/beautiful-color-mandarin-fish.jpg" class="d-block h-80 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Mandarin Fish</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -87,19 +106,225 @@
         </button>
       </div>
 
-      <!--Paragraph-->
-      <section class="bg-light text-dark text-center p-5 p-lg-0 pt-lg-5 text-sm-start">
+      <!--About-->
+      <section id="about" class="bg-light text-dark text-center p-5 p-lg-0 pt-lg-5 text-sm-start mb-4">
         <div class="container">
              <div class="d-lg-flex align-items-center justify-content-between">
                 <div>
-                    <h1>Become an <span class="text-secondary">Animal Lover</span></h1>
+                    <h1>All About Animals<span class="text-secondary"> Lover | Wild</span></h1>
                     <p class="lead my-4">Our team is looking for talented people who wants to show case their work either by web developing, designing or photograpy. We provide support and equal oppurtunity for everyone of you. What are you waiting for? Become part of our team!</p>
-                    <button class="btn btn-primary btn-lg">Read More</button>
+                    <button class="btn btn-info btn-lg my-4">Read More</button>
                 </div>
-                <img class="img-fluid w-50 d-none d-sm-block" src="images/africa-hippopotamus-amphibius.jpg" alt="">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner mb-2">
+                    <div class="carousel-item active">
+                      <img src="images/african-leopard-sitting-tree-looking-around-jungle.jpg" class="d-block w-100 overflow-hidden" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/africa-hippopotamus-amphibius.jpg" class="d-block w-100 overflow-hidden" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/eurasian-wolf-white-winter-habitat-beautiful-winter-forest.jpg" class="d-block w-100 overflow-hidden" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
              </div>
         </div>
     </section>
+
+
+    <!--Sign Up-->
+
+      <section class="bg-dark text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="px-2 mb-3 mb-md-0">Become a writer! Sign up here.</h3>
+
+                <div class="input-group news-input">
+                    <input type="email" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-info btn-lg btn-custom" type="button" id="button-addon2" >Submit</button>
+                </div>
+
+            </div>
+        </div>
+      </section>
+
+      <div id="vertibrates" class="container text-center mt-5">
+        <h1>
+        Vertebrates
+        </h1>
+        <p>Also called Craniata, any animal of the subphylum Vertebrata, the predominant subphylum of the phylum Chordata. They have backbones, from which they derive their name. The vertebrates are also characterized by a muscular system consisting primarily of bilaterally paired masses and a central nervous system partly enclosed within the backbone. <a href="https://www.britannica.com/animal/vertebrate">Read Article</a></p>
+        <h5>Example:</h5>
+      </div>
+
+
+      <!--Vertibrates Part 1-->
+      <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4"> <!--g means a gap, it can be in a x or y axis-->
+
+              <div class="card col-lg col-md" style="width: 18rem;">
+                <img src="images/halfmoon-betta-fish.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Betta Fish</h5>
+                  <p class="card-text">Betta fish are native to Asia, where they live in the shallow water of marshes, ponds, or slow-moving streams.</p>
+                  <a href="https://www.peta.org/features/never-buy-betta-fish-as-pets-how-siamese-fighting-fish-suffer/" target="_blank" class="btn btn-info">Read More</a>
+                </div>
+              </div>
+
+              <div class="card col-lg col-md" style="width: 18rem;">
+                <img src="images/blue-iguana-closeup-wood-blue-iguana-grand-cayman-blue-iguana-cyclura-lewisi-closeup.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Blue Iguana</h5>
+                  <p class="card-text">The Blue Iguana once numbered in the tens of thousands but over decades the population was decimated by development, wild animals, vehicular traffic and human population. </p>
+                  <a href="https://nationaltrust.org.ky/our-work/conservation/blue-iguana-conservation/" target="_blank" class="btn btn-info">Read More</a>
+                </div>
+              </div>
+
+              <div class="card col-lg col-md" style="width: 18rem;">
+                <img src="images/drill-monkey-mandrillus-leucophaeus-resting-nature-habitat-area.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Monkey Mandrillus</h5>
+                  <p class="card-text">Mandrills are the largest of all monkeys. They are shy and reclusive primates that live only in the rain forests of equatorial Africa.</p>
+                  <a href="https://www.nationalgeographic.com/animals/mammals/facts/mandrill" target="" class="btn btn-info">Read More</a>
+                </div>
+              </div>
+
+        </div>
+        </div>
+      </section>
+
+
+      <!--Vetibrates Part 2-->
+      <section class="p-5 pt--15">
+        <div class="container">
+            <div class="row text-center g-3"> <!--g means a gap, it can be in a x or y axis-->
+
+              <div class="card col-md" style="width: 18rem;">
+                <img src="images/turquoise-fronted-amazon-amazona-aestiva-wild.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">The turquoise-fronted amazon, also called the turquoise-fronted parrot, the blue-fronted amazon and the blue-fronted parrot, is a South American species of amazon parrot and one of the most common amazon parrots kept in captivity as a pet or companion parrot. </p>
+                  <a href="https://animalia.bio/turquoise-fronted-amazon" target="_blank" class="btn btn-info">Read More</a>
+                </div>
+              </div>
+
+              <div class="card col-md" style="width: 18rem;">
+                <img src="images/banded-bullfrog-kaloula-pulchra-closeup-face-wood-with-black-background.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bull Frog</h5>
+                  <p class="card-text">Bullfrogs are typically green or gray-brown with brown spots and have easily identifiable circular eardrums, or tympanum, on either side of their heads. </p>
+                  <a href="#" class="btn btn-info">Read More</a>
+                </div>
+              </div>
+
+              <div class="card col-md" style="width: 18rem;">
+                <img src="images/blue-viper-snake-branch.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Viper Snake</h5>
+                  <p class="card-text">Pit vipers are distinguished by a temperature-sensitive pit organ located on each side of the head midway between each nostril and eye. This structure is sensitive to infrared radiation, which enables the snake to “see” heat images of warm-blooded prey. </p>
+                  <a href="https://www.britannica.com/animal/viper-snake" target="_blank" class="btn btn-info">Read More</a>
+                </div>
+              </div>
+        </div>
+        </div>
+      </section>
+
+
+      <!--FAQS-->
+      <dic class="container">
+        <h1 class="text-center">
+          Frequently Ask Question About Vertebrates
+        </h1>
+      </dic>
+      <!--Accordion-->
+      <div class="container">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              What Called Vertebrates ?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <strong>A vertebrate is an animal that has a backbone and a skeleton.</strong> Vertebrate animals include humans. When you think about vertebrates, think about bones: this word has to do with animals that have a lot of bones, in the form of a skeleton. It especially refers to animals with a backbone, which protects their spinal cord.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              What are the 5 characteristics of vertebrates?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>Vertebrates have five key characteristics that are common to all vertebrates.</strong>
+               <ol>
+                <li>They have a backbone.</li>
+                <li>They have a skull.</li>
+                <li>They have an endoskeleton.</li>
+                <li>They have bilateral symmetry.</li>
+                <li>They have two pairs of appendages.</li>
+               </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              What are the 5 types of Vertibrates?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>The phylum chordata (animals with backbones) is divided into five common classes:</strong>
+              <ul>
+                <li>Fish</li>
+                <li>Amphibians</li>
+                <li>Reptiles</li>
+                <li>Mammals</li>
+                <li>Birds</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+              Are Humans Vertebrates ?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+                <strong>Humans and all other back-boned animals—plus a few others that have no bone at all—comprise the vertebrates.</strong> Vertebrates are a clade, meaning that all members of the group have evolved from a common ancestor that they all share.
+                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjLkuqk9Pj5AhWUOZQKHRrGDVYQFnoECAMQAw&url=https%3A%2F%2Fevolution-outreach.biomedcentral.com%2Farticles%2F10.1007%2Fs12052-009-0134-3&usg=AOvVaw13YN51LaJbJ4LuIph0rVJc" target="_blank">Read More</a> 
+              </div>
+          </div>
+        </div>
+
+        <!--VideoVertebrates-->
+        <div class="container">
+          <div class="container-fluid">
+            <div class="column">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="1280" height="720" src="https://www.youtube.com/watch?v=HjAAC6BGp5c?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
