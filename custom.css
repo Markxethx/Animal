@@ -1,0 +1,10 @@
+body {
+  background-color: #edf6f9 !important;
+}
+
+.bg-dark .container .d-flex .px-2 {
+  color: #fcffeb !important;
+}
+.bg-dark .container .d-flex .input-group .btn {
+  background-color: #fcffeb !important;
+}/*# sourceMappingURL=custom.css.map */
